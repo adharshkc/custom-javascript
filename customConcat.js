@@ -8,7 +8,7 @@ console.log(arr.concat(str, fun, obj, ar))
 
 
 Array.prototype.myConcat = function(){
-    const result = []
+    const result = [];
     for(const elem of this){
         result.push(elem)
     }

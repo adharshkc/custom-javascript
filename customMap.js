@@ -28,3 +28,4 @@ const sum = {
 
 const meth = arr.myMap(sum.add, sum)
 console.log(meth)
+
